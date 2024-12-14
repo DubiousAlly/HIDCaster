@@ -7,4 +7,6 @@ Basically the ESP32-S3 decides whether to resend the HID reoports over BLE or US
 
 The kCtx.c/.h library I've included that probably looks utterly superfluous to this application is an eye toward a subsequent project with this at its core.
 
-I tested this with an Orange Pi 5 plus as the SBC, an ESP32-S3 Devkit as the microcontroller, and my partner controls a Linux Lenovo from the HID's at a Windows 11 IBuyPower gaming rig.
+I tested this with an Orange Pi 5 plus as the SBC, an ESP32-S3 Devkit as the microcontroller, and I control a Linux Lenovo micro PC from the HID's at a Windows 11 IBuyPower gaming rig.
+
+I actually use the Orange Pi, so the finished project will replace it with a Raspberry Pi Zero. The OPi made it easy code the keylogging program.
